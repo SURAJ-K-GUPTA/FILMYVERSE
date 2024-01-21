@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  color: white;
+}
+
+.card {
+  background-color: rgb(19, 19, 19);
+}
+
+.stylemovie {
+  background-size: auto 24px !important;
+  background-position: right center !important;
+  background-repeat: no-repeat !important;
+  background-origin: content-box !important;
+  transition: background 0s ease 0s !important;
+}
+
+.header {
+  background-color: #15161a;
+}
+
+.movie-title {
+  max-width: 160px;
+  white-space: normal;
+  word-break: break-word;
+}
+.title-class{
+  margin-top: 10px;
+  align-items: flex-start;
+}
+.title-class div{
+  margin-left: 3px;
+}
+
+.card-class{
+  min-height: 420px;
+}
