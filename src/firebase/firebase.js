@@ -26,3 +26,4 @@ export const usersRef = collection(db,'users');
 export default app;
 
 export const auth = getAuth(app);
+
